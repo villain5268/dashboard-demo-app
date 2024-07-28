@@ -10,13 +10,11 @@ Installation
 Clone the repository
 
 sh
-Copy code
 git clone (https://github.com/villain5268/dashboard-demo-app)
 cd your-repository-name
 Install dependencies
 
 sh
-Copy code
 npm install
 Available Scripts
 In the project directory, you can run:
@@ -39,52 +37,7 @@ Runs the linter to check for code issues.
 
 Project Structure
 React+Vite
-Copy code
 
-your-repository-name/
-├── public/
-│   ├── favicon.ico
-│   └── ...
-├── src/
-│   ├── components/
-│   │   ├── Cards/
-│   │   │   └── Cards.jsx
-│   │   ├── Transactions/
-│   │   │   └── Transactions.jsx
-│   │   ├── Report/
-│   │   │   └── Report.jsx
-│   │   ├── Budget/
-│   │   │   └── Budget.jsx
-│   │   ├── Subscriptions/
-│   │   │   └── Subscriptions.jsx
-│   │   ├── Savings/
-│   │   │   └── Savings.jsx
-│   │   ├── Loans/
-│   │   │   └── Loans.jsx
-│   │   └── Financial/
-│   │       └── Financial.jsx
-│   ├── context/
-│   │   └── sidebarContext.jsx
-│   ├── data/
-│   │   └── data.js
-│   ├── layout/
-│   │   ├── sidebar/
-│   │   │   └── Sidebar.jsx
-│   │   └── content/
-│   │       └── Content.jsx
-│   ├── utils/
-│   │   └── images.js
-│   ├── App.css
-│   ├── App.jsx
-│   ├── ContentTop.css
-│   ├── ContentMain.css
-│   ├── Sidebar.css
-│   └── index.css
-├── .gitignore
-├── index.html
-├── package.json
-├── README.md
-└── vite.config.js
 
 Dependencies
 React
